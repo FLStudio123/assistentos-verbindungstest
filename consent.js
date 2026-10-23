@@ -1,10 +1,10 @@
-// node_modules/@supabase/supabase-js/dist/tracingRegistry.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/supabase-js/dist/tracingRegistry.mjs
 var EXTRACTOR_KEY = /* @__PURE__ */ Symbol.for("@supabase/supabase-js.traceContextExtractor");
 function getTraceContextExtractor() {
   return globalThis[EXTRACTOR_KEY];
 }
 
-// node_modules/tslib/tslib.es6.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/tslib/tslib.es6.mjs
 function __rest(s, e) {
   var t = {};
   for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
@@ -44,7 +44,7 @@ function __awaiter(thisArg, _arguments, P, generator) {
   });
 }
 
-// node_modules/@supabase/functions-js/dist/module/helper.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/functions-js/dist/module/helper.js
 var resolveFetch = (customFetch) => {
   if (customFetch) {
     return (...args) => customFetch(...args);
@@ -52,7 +52,7 @@ var resolveFetch = (customFetch) => {
   return (...args) => fetch(...args);
 };
 
-// node_modules/@supabase/functions-js/dist/module/types.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/functions-js/dist/module/types.js
 var FunctionsError = class extends Error {
   constructor(message, name = "FunctionsError", context) {
     super(message);
@@ -101,7 +101,7 @@ var FunctionRegion;
   FunctionRegion2["UsWest2"] = "us-west-2";
 })(FunctionRegion || (FunctionRegion = {}));
 
-// node_modules/@supabase/functions-js/dist/module/FunctionsClient.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/functions-js/dist/module/FunctionsClient.js
 var FunctionsClient = class {
   /**
    * Creates a new Functions client bound to an Edge Functions URL.
@@ -376,7 +376,7 @@ var FunctionsClient = class {
   }
 };
 
-// node_modules/@supabase/postgrest-js/dist/index.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/postgrest-js/dist/index.mjs
 var PostgrestError = class extends Error {
   /**
   * @example
@@ -4275,7 +4275,7 @@ var PostgrestClient = class PostgrestClient2 {
   }
 };
 
-// node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
 var WebSocketFactory = class {
   /**
    * Static-only utility – prevent instantiation.
@@ -4378,10 +4378,10 @@ Suggested solution: ${env.workaround}`;
 };
 var websocket_factory_default = WebSocketFactory;
 
-// node_modules/@supabase/realtime-js/dist/module/lib/version.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/lib/version.js
 var version = "2.118.0";
 
-// node_modules/@supabase/realtime-js/dist/module/lib/constants.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/lib/constants.js
 var DEFAULT_VERSION = `realtime-js/${version}`;
 var VSN_1_0_0 = "1.0.0";
 var VSN_2_0_0 = "2.0.0";
@@ -4412,7 +4412,7 @@ var CONNECTION_STATE = {
   closed: "closed"
 };
 
-// node_modules/@supabase/realtime-js/dist/module/lib/serializer.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/lib/serializer.js
 var Serializer = class {
   constructor(allowedMetadataKeys) {
     this.HEADER_LENGTH = 1;
@@ -4559,7 +4559,7 @@ var Serializer = class {
   }
 };
 
-// node_modules/@supabase/realtime-js/dist/module/lib/transformers.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/lib/transformers.js
 var PostgresTypes;
 (function(PostgresTypes2) {
   PostgresTypes2["abstime"] = "abstime";
@@ -4722,7 +4722,7 @@ var httpEndpointURL = (socketUrl) => {
   return wsUrl.href;
 };
 
-// node_modules/@supabase/phoenix/priv/static/phoenix.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/phoenix/priv/static/phoenix.mjs
 var closure = (value) => {
   if (typeof value === "function") {
     return (
@@ -6541,7 +6541,7 @@ var Socket = class {
   }
 };
 
-// node_modules/@supabase/realtime-js/dist/module/phoenix/presenceAdapter.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/phoenix/presenceAdapter.js
 var PresenceAdapter = class _PresenceAdapter {
   constructor(channel, opts) {
     const phoenixOptions = phoenixPresenceOptions(opts);
@@ -6633,7 +6633,7 @@ function parseCurrentPresences(currentPresences) {
   return (currentPresences === null || currentPresences === void 0 ? void 0 : currentPresences.metas) ? transformState(currentPresences) : [];
 }
 
-// node_modules/@supabase/realtime-js/dist/module/RealtimePresence.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/RealtimePresence.js
 var REALTIME_PRESENCE_LISTEN_EVENTS;
 (function(REALTIME_PRESENCE_LISTEN_EVENTS2) {
   REALTIME_PRESENCE_LISTEN_EVENTS2["SYNC"] = "sync";
@@ -6667,7 +6667,7 @@ var RealtimePresence = class {
   }
 };
 
-// node_modules/@supabase/realtime-js/dist/module/lib/normalizeChannelError.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/lib/normalizeChannelError.js
 function normalizeChannelError(reason) {
   if (reason instanceof Error) {
     return reason;
@@ -6686,7 +6686,7 @@ function normalizeChannelError(reason) {
   return new Error("channel error: connection lost");
 }
 
-// node_modules/@supabase/realtime-js/dist/module/phoenix/channelAdapter.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/phoenix/channelAdapter.js
 var ChannelAdapter = class {
   constructor(socket, topic, params) {
     const phoenixParams = phoenixChannelParams(params);
@@ -6785,7 +6785,7 @@ function phoenixChannelParams(options) {
   };
 }
 
-// node_modules/@supabase/realtime-js/dist/module/RealtimePostgresFilterBuilder.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/RealtimePostgresFilterBuilder.js
 var PostgrestReservedCharsRegexp2 = /[,()"\\]/;
 var needsQuoting = (value) => PostgrestReservedCharsRegexp2.test(value) || value !== value.trim();
 var quote = (value) => `"${value.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
@@ -6899,7 +6899,7 @@ var RealtimePostgresFilterBuilder = class {
   }
 };
 
-// node_modules/@supabase/realtime-js/dist/module/RealtimeChannel.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/RealtimeChannel.js
 var REALTIME_POSTGRES_CHANGES_LISTEN_EVENT;
 (function(REALTIME_POSTGRES_CHANGES_LISTEN_EVENT2) {
   REALTIME_POSTGRES_CHANGES_LISTEN_EVENT2["ALL"] = "*";
@@ -7630,7 +7630,7 @@ var RealtimeChannel = class _RealtimeChannel {
   }
 };
 
-// node_modules/@supabase/realtime-js/dist/module/phoenix/socketAdapter.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/phoenix/socketAdapter.js
 var SocketAdapter = class {
   constructor(endPoint, options) {
     this.socket = new Socket(endPoint, options);
@@ -7742,7 +7742,7 @@ var SocketAdapter = class {
   }
 };
 
-// node_modules/@supabase/realtime-js/dist/module/RealtimeClient.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/realtime-js/dist/module/RealtimeClient.js
 var CONNECTION_TIMEOUTS = {
   HEARTBEAT_INTERVAL: 25e3,
   RECONNECT_DELAY: 10,
@@ -8408,7 +8408,7 @@ var RealtimeClient = class {
   }
 };
 
-// node_modules/iceberg-js/dist/index.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/iceberg-js/dist/index.mjs
 var IcebergError = class extends Error {
   constructor(message, opts) {
     super(message);
@@ -8941,7 +8941,7 @@ var IcebergRestCatalog = class {
   }
 };
 
-// node_modules/@supabase/storage-js/dist/index.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/storage-js/dist/index.mjs
 function _typeof2(o) {
   "@babel/helpers - typeof";
   return _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o$1) {
@@ -11929,10 +11929,10 @@ var StorageClient = class extends StorageBucketApi {
   }
 };
 
-// node_modules/@supabase/auth-js/dist/module/lib/version.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/version.js
 var version3 = "2.118.0";
 
-// node_modules/@supabase/auth-js/dist/module/lib/constants.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/constants.js
 var AUTO_REFRESH_TICK_DURATION_MS = 30 * 1e3;
 var AUTO_REFRESH_TICK_THRESHOLD = 3;
 var EXPIRY_MARGIN_MS = AUTO_REFRESH_TICK_THRESHOLD * AUTO_REFRESH_TICK_DURATION_MS;
@@ -11952,7 +11952,7 @@ var PKCE_FLOW_ID_PARAM = "sb_flow_id";
 var PKCE_MAX_CONCURRENT_FLOWS = 5;
 var JWKS_TTL = 10 * 60 * 1e3;
 
-// node_modules/@supabase/auth-js/dist/module/lib/errors.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/errors.js
 var AuthError = class extends Error {
   constructor(message, status2, code) {
     super(message);
@@ -12075,7 +12075,7 @@ var AuthInvalidJwtError = class extends CustomAuthError {
   }
 };
 
-// node_modules/@supabase/auth-js/dist/module/lib/base64url.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/base64url.js
 var TO_BASE64URL = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_".split("");
 var IGNORE_BASE64URL = " 	\n\r=".split("");
 var FROM_BASE64URL = (() => {
@@ -12237,7 +12237,7 @@ function bytesToBase64URL(bytes) {
   return result.join("");
 }
 
-// node_modules/@supabase/auth-js/dist/module/lib/helpers.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/helpers.js
 function expiresAt(expiresIn) {
   const timeNow = Math.round(Date.now() / 1e3);
   return timeNow + expiresIn;
@@ -12610,7 +12610,7 @@ function deepClone(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
 
-// node_modules/@supabase/auth-js/dist/module/lib/fetch.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/fetch.js
 var _getErrorMessage2 = (err) => {
   if (typeof err === "object" && err !== null) {
     const e = err;
@@ -12779,10 +12779,10 @@ function hasSession(data) {
   return !!data.access_token && !!data.refresh_token && !!data.expires_in;
 }
 
-// node_modules/@supabase/auth-js/dist/module/lib/types.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/types.js
 var SIGN_OUT_SCOPES = ["global", "local", "others"];
 
-// node_modules/@supabase/auth-js/dist/module/GoTrueAdminApi.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/GoTrueAdminApi.js
 var GoTrueAdminApi = class {
   /**
    * Creates an admin API client that can be used to manage users and OAuth clients.
@@ -13850,7 +13850,7 @@ var GoTrueAdminApi = class {
   }
 };
 
-// node_modules/@supabase/auth-js/dist/module/lib/local-storage.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/local-storage.js
 function memoryLocalStorageAdapter(store = {}) {
   return {
     getItem: (key) => {
@@ -13865,7 +13865,7 @@ function memoryLocalStorageAdapter(store = {}) {
   };
 }
 
-// node_modules/@supabase/auth-js/dist/module/lib/locks.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/locks.js
 var internals = {
   /**
    * @experimental
@@ -13879,7 +13879,7 @@ var LockAcquireTimeoutError = class extends Error {
   }
 };
 
-// node_modules/@supabase/auth-js/dist/module/lib/polyfills.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/polyfills.js
 function polyfillGlobalThis() {
   if (typeof globalThis === "object")
     return;
@@ -13899,7 +13899,7 @@ function polyfillGlobalThis() {
   }
 }
 
-// node_modules/@supabase/auth-js/dist/module/lib/web3/ethereum.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/web3/ethereum.js
 function getAddress(address) {
   if (!/^0x[a-fA-F0-9]{40}$/.test(address)) {
     throw new Error(`@supabase/auth-js: Address "${address}" is invalid.`);
@@ -13967,7 +13967,7 @@ Request ID: ${requestId}`;
 ${suffix}`;
 }
 
-// node_modules/@supabase/auth-js/dist/module/lib/webauthn.errors.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/webauthn.errors.js
 var WebAuthnError = class extends Error {
   constructor({ message, code, cause, name }) {
     var _a;
@@ -14142,7 +14142,7 @@ function identifyAuthenticationError({ error, options }) {
   });
 }
 
-// node_modules/@supabase/auth-js/dist/module/lib/webauthn.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/lib/webauthn.js
 var WebAuthnAbortService = class {
   /**
    * Create an abort signal for a new WebAuthn operation.
@@ -14665,7 +14665,7 @@ var WebAuthnApi = class {
   }
 };
 
-// node_modules/@supabase/auth-js/dist/module/GoTrueClient.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/GoTrueClient.js
 polyfillGlobalThis();
 var DEFAULT_OPTIONS = {
   url: GOTRUE_URL,
@@ -20045,11 +20045,11 @@ var GoTrueClient = class _GoTrueClient {
 GoTrueClient.nextInstanceID = {};
 var GoTrueClient_default = GoTrueClient;
 
-// node_modules/@supabase/auth-js/dist/module/AuthClient.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/auth-js/dist/module/AuthClient.js
 var AuthClient = GoTrueClient_default;
 var AuthClient_default = AuthClient;
 
-// node_modules/@supabase/supabase-js/dist/index.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/node_modules/@supabase/supabase-js/dist/index.mjs
 var version4 = "2.118.0";
 var JS_ENV = "";
 var JS_RUNTIME_VERSION;
@@ -20791,7 +20791,7 @@ function shouldShowDeprecationWarning() {
 }
 if (shouldShowDeprecationWarning()) console.warn("\u26A0\uFE0F  Node.js 20 and below are deprecated and will no longer be supported in future versions of @supabase/supabase-js. Please upgrade to Node.js 22 or later. For more information, visit: https://github.com/orgs/supabase/discussions/45715");
 
-// config.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/config.js
 var config = {
   project: "https://ovzpzpbpeqwnjjcfyvcf.supabase.co",
   key: "sb_publishable_6ZKpdVEX6f2TlvD2nZdI9A_eeJj5sqw",
@@ -20801,7 +20801,7 @@ var config = {
   callback: "https://chatgpt.com/connector/oauth/w5DrCfzBNXfK"
 };
 
-// guards.mjs
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/guards.mjs
 function safeCallback(raw, expected) {
   if (!expected) throw Error("ChatGPT-R\xFCcksprungadresse noch nicht eingerichtet.");
   const u = new URL(raw), base = new URL(expected);
@@ -20818,7 +20818,7 @@ function validateDetails(details, config2, id2) {
   return scopes;
 }
 
-// main.js
+// 00 Inbox/2026 Q4 AssistentOS Assistent/endpoint/consent/main.js
 var status = document.querySelector("#status");
 var form = document.querySelector("#login");
 var panel = document.querySelector("#consent");
@@ -20855,12 +20855,12 @@ form.addEventListener("submit", async (e) => {
     if (detailsError || !details) throw Error("Die Verbindungsanfrage ist ung\xFCltig oder abgelaufen. Bitte aus ChatGPT neu starten.");
     if (!("authorization_id" in details)) {
       redirectReady = safeCallback(details.redirect_url, config.callback);
-      document.querySelector("#details").textContent = "F\xFCr diese Verbindung besteht bereits eine Freigabe. Mit \u201EWeiter\u201C kehrst du zu ChatGPT zur\xFCck.";
+      document.querySelector("#details").textContent = "F\xFCr diesen OAuth-Client besteht bereits eine Anmeldung. Der vorgesehene erweiterte Umfang ist: Aufgaben und Ziele lesen, einzeln anlegen und auf deinen Auftrag bearbeiten. Keine L\xF6schfunktion, keine Routinen, Messwerte, Beziehungstage, Wissenseintr\xE4ge oder Einstellungen. Die zus\xE4tzliche Datenbankfreigabe muss separat ausdr\xFCcklich best\xE4tigt und aktiviert sein. Mit \u201EWeiter\u201C kehrst du zu ChatGPT zur\xFCck.";
       approve.textContent = "Weiter zu ChatGPT";
       deny.hidden = true;
     } else {
       const scopes = validateDetails(details, config, id);
-      document.querySelector("#details").textContent = "Anwendung: " + details.client.name + "\nClient-ID: " + details.client.id + "\nR\xFCcksprung: " + details.redirect_uri + "\nAnmeldedaten-Umfang: " + (scopes.join(", ") || "keine zus\xE4tzlichen Profildaten") + "\nApp-Daten: ausschlie\xDFlich die feste Testaufgabe, nur lesen.";
+      document.querySelector("#details").textContent = "Anwendung: " + details.client.name + "\nClient-ID: " + details.client.id + "\nR\xFCcksprung: " + details.redirect_uri + "\nAnmeldedaten-Umfang: " + (scopes.join(", ") || "keine zus\xE4tzlichen Profildaten") + "\nApp-Daten: Aufgaben und Ziele lesen, einzeln anlegen und auf deinen ausdr\xFCcklichen Auftrag bearbeiten. Kein L\xF6schen; Routinen, Messwerte, Beziehungstage, Wissenseintr\xE4ge und Einstellungen bleiben gesperrt. Aufgaben und Ziele aus allen vier Bereichen sind eingeschlossen. Die zus\xE4tzliche Datenbankfreigabe wird separat aktiviert.";
     }
     ready = true;
     panel.hidden = false;
